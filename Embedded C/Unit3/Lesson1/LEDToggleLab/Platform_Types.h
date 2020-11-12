@@ -2,7 +2,7 @@
  * Platform_Types.h
  *
  *  Created on: Nov 12, 2020
- *      Author: PC
+ *      Author: Mai Mousa
  */
 
 #ifndef PLATFORM_TYPES_H_
