@@ -32,7 +32,7 @@ $(Project_name).bin: $(Project_name).elf
 clean:
 	rm *.elf *.bin
 
-clean_all:
+clean_all: 
 	rm *.o *.elf *.bin 
 
 
