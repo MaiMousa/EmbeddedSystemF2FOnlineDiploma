@@ -17,7 +17,7 @@ all: $(Project_name).bin
 
 	
 %.o: %.c
-	$(CC)gcc.exe $(CFLAGS) -c  $(INCS)  $< -o $@
+	$(CC)gcc.exe $(CFLAGS) -mthumb -c  $(INCS)  $< -o $@
 
 %.o: %.s
 	$(CC)as.exe  $(CFLAGS) $< -o $@ 
